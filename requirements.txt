@@ -1,0 +1,11 @@
+
+fastapi
+uvicorn
+sqlalchemy
+langgraph
+streamlit
+python-dotenv
+google-generativeai
+langchain
+langchain-google-genai
+pydantic
