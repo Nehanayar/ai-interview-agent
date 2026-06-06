@@ -75,3 +75,25 @@ project/
 ## Author
 
 Neha Nayar
+
+## Screenshot
+
+![AI Interview Agent](screenshot.png)
+
+## How It Works
+
+1. Candidate enters personal and interview details.
+2. AI generates role-specific interview questions.
+3. Candidate submits answers through the Streamlit interface.
+4. Gemini AI evaluates each response.
+5. The system provides scores, strengths, weaknesses, and feedback.
+6. A final interview report is generated.
+
+## Key Highlights
+
+- Built an AI-powered interview automation system.
+- Integrated Google Gemini for intelligent answer evaluation.
+- Implemented LangGraph workflow for interview management.
+- Developed a FastAPI backend and Streamlit frontend.
+- Generated detailed candidate performance reports with scoring and recommendations.
+- Designed a scalable architecture for multiple technical roles.
