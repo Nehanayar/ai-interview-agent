@@ -52,7 +52,7 @@ An AI-powered Interview Agent that conducts technical interviews, evaluates cand
 ai-interview-agent/
 │
 ├── Backend/
-│   ├── app.py
+│   ├── main.py
 │   ├── graph.py
 │   ├── database.py
 │   └── model.py
