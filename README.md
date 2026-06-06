@@ -1,98 +1,126 @@
-
-# AI Interview Agent
+# 🤖 AI Interview Agent
 
 An AI-powered Interview Agent that conducts technical interviews, evaluates candidate answers, and generates detailed performance reports.
 
-## Features
+---
 
-* AI-generated interview questions
-* Role-based interviews
+## 🚀 Features
 
-  * Python Developer
-  * ML Engineer
-  * GenAI Engineer
-* Answer evaluation with scoring
-* Strength and weakness analysis
-* Final interview report generation
-* FastAPI backend
-* Streamlit frontend
-* LangGraph workflow
-* Gemini AI integration
-* SQLite database support
+✅ AI-generated interview questions
 
-## Tech Stack
+✅ Role-based interviews
 
-* Python
-* FastAPI
-* Streamlit
-* LangGraph
-* Google Gemini
-* SQLite
-* SQLAlchemy
+* Python Developer
+* ML Engineer
+* GenAI Engineer
 
-## Installation
+✅ Answer evaluation with scoring
+
+✅ Strength and weakness analysis
+
+✅ Final interview report generation
+
+✅ FastAPI backend
+
+✅ Streamlit frontend
+
+✅ LangGraph workflow
+
+✅ Gemini AI integration
+
+✅ SQLite database support
+
+---
+
+## 🛠 Tech Stack
+
+| Technology    | Purpose                             |
+| ------------- | ----------------------------------- |
+| Python        | Core Programming                    |
+| FastAPI       | Backend API                         |
+| Streamlit     | Frontend UI                         |
+| LangGraph     | Interview Workflow                  |
+| Google Gemini | AI Question Generation & Evaluation |
+| SQLite        | Database                            |
+| SQLAlchemy    | ORM                                 |
+
+---
+
+## 📂 Project Structure
+
+```text
+ai-interview-agent/
+│
+├── Backend/
+│   ├── main.py
+│   ├── graph.py
+│   ├── database.py
+│   └── model.py
+│
+├── Frontend/
+│   └── streamlitapp.py
+│
+├── Screenshots/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## ▶️ Installation
+
+### Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/ai-interview-agent.git
 cd ai-interview-agent
+```
 
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env` file:
+### Create Environment File
 
 ```env
 GEMINI_API_KEY=your_api_key
 ```
 
-Run Backend:
+### Run Backend
 
 ```bash
-uvicorn main:app --reload
+uvicorn Backend.main:app --reload
 ```
 
-Run Frontend:
+### Run Frontend
 
 ```bash
-streamlit run streamlitapp.py
+streamlit run Frontend/streamlitapp.py
 ```
 
-## Project Structure
+---
 
-```text
-project/
-│
-├── app.py
-├── graph.py
-├── model.py
-├── database.py
-├── streamlitapp.py
-├── requirements.txt
-├── .env
-└── README.md
-```
+## 📸 Screenshots
 
-## Author
+### Home Page
 
-Neha Nayar
+![Home Page](Screenshots/Screenshot%202026-06-06%20152030.png)
 
-Screenshots
+### Interview Page
 
-Home Page
-Screenshot 2026-06-06 152030.png
+![Interview Page](Screenshots/Screenshot%202026-06-06%20152106.png)
 
+### Final Report
 
+![Final Report](Screenshots/Screenshot%202026-06-06%20152135.png)
 
-Interview Page
+---
 
-
-
-
-Final Report
-
-
-
-## How It Works
+## ⚙️ How It Works
 
 1. Candidate enters personal and interview details.
 2. AI generates role-specific interview questions.
@@ -101,11 +129,19 @@ Final Report
 5. The system provides scores, strengths, weaknesses, and feedback.
 6. A final interview report is generated.
 
-## Key Highlights
+---
 
-- Built an AI-powered interview automation system.
-- Integrated Google Gemini for intelligent answer evaluation.
-- Implemented LangGraph workflow for interview management.
-- Developed a FastAPI backend and Streamlit frontend.
-- Generated detailed candidate performance reports with scoring and recommendations.
-- Designed a scalable architecture for multiple technical roles.
+## ⭐ Key Highlights
+
+* Built an AI-powered interview automation system.
+* Integrated Google Gemini for intelligent answer evaluation.
+* Implemented LangGraph workflow for interview management.
+* Developed a FastAPI backend and Streamlit frontend.
+* Generated detailed candidate performance reports.
+* Designed a scalable architecture for multiple technical roles.
+
+---
+
+## 👩‍💻 Author
+
+**Neha Nayar**
