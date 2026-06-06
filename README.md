@@ -76,9 +76,20 @@ project/
 
 Neha Nayar
 
-## Screenshot
+Screenshots
+Home Page
 
-![AI Interview Agent](screenshot.png)
+
+
+
+Interview Page
+
+
+
+
+Final Report
+
+
 
 ## How It Works
 
