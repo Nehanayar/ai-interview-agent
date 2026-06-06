@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000"
+API_URL = "https://ai-interview-agent-neha.onrender.com"
 
 st.title("AI Interview Agent")
 
