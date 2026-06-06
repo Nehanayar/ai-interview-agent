@@ -77,8 +77,9 @@ project/
 Neha Nayar
 
 Screenshots
-Home Page
 
+Home Page
+Screenshot 2026-06-06 152030.png
 
 
 
