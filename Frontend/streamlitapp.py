@@ -111,7 +111,7 @@ if st.session_state.question:
             data = result.json()
 
             # DEBUG RESPONSE
-            st.write("Backend Response:", data)
+            
 
             if "error" in data:
                 st.error(data["error"])
