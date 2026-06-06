@@ -5,9 +5,9 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from database import SessionLocal, Base, engine
 
-from graph import graph, evaluate_answer, generate_report
-from database import SessionLocal
-from model import Interview
+from Backend.graph import graph, evaluate_answer, generate_report
+from Backend.database import SessionLocal
+from Backend.model import Interview
 
 
 
