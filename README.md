@@ -62,7 +62,7 @@ streamlit run streamlitapp.py
 ```text
 project/
 │
-├── main.py
+├── app.py
 ├── graph.py
 ├── model.py
 ├── database.py
