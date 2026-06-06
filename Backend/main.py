@@ -3,7 +3,7 @@ import json
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from database import SessionLocal, Base, engine
+from Backend.database import SessionLocal, Base, engine
 
 from Backend.graph import graph, evaluate_answer, generate_report
 from Backend.database import SessionLocal
