@@ -4,6 +4,15 @@ An AI-powered Interview Agent that conducts technical interviews, evaluates cand
 
 ---
 
+🌐 Live Demo
+
+🚀 Try the application here:
+
+https://your-streamlit-app.streamlit.app
+
+Note: The application uses Google Gemini API. The demo may be temporarily unavailable if the free API quota limit is reached.
+
+
 ## 🚀 Features
 
 ✅ AI-generated interview questions
